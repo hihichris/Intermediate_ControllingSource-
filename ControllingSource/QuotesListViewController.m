@@ -77,7 +77,7 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     Quote *quote = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = quote.famousQuote;
+    cell.textLabel.text = quote.personName;
 }
 
 - (void)insertNewObject:(id)sender
